@@ -1,0 +1,560 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    overflow-x: hidden;
+     /* Hide scrollbars */
+  }
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+h1,h2{
+    font-weight: 300;
+    line-height: 1.2;
+}
+p{
+    margin: 10px 0;
+}
+
+/* Navbar */
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 150px;
+    margin-top: -30px;
+}
+.navbar a{
+    color: #fff;
+    padding: 10px 20px;
+    margin: 0 20px;
+
+}
+.navbar a:hover{
+    background: #0072b1;
+    border-radius: 10px;
+}
+.navbar ul{
+    display: flex;
+    align-items: center;
+}
+.navbar .btn{
+    background-color: #0072b1;
+    border-radius: 10px;
+    margin-top: -7px;
+}  
+
+#navbar .logo {
+    width: 180px;
+    margin-top: 51px;
+}
+.navbar .btn:hover{
+   border-bottom: #0072b1 2px solid;
+   opacity: 0.9;
+}
+
+.navbar ul{
+    margin-top: 64px;
+}
+.hero {
+    background: url('/images/bg.jpg') no-repeat center center/cover;
+    height: 100vh;
+    position: relative;
+    color: #fff;
+}
+.hero .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    padding: 92px 20px;
+
+}
+.hero .content h1,h2{
+    font-weight: bold;
+}
+.hero .content h2{
+    margin-left: -40px;
+    margin-bottom: 10px;
+}
+#btn-nav{
+    border-radius: 30px;
+    border: #fff 2px solid;
+    padding:  5px 20px;
+    margin-top: 30px;
+    width: max-content;
+}
+.content img{
+    width: 35px;
+    padding-bottom: 2px;
+    padding-top: 5px;
+}
+
+.content-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 305px;
+    margin-top: -59 px;
+}
+.content-1 img{
+    margin-top: -100px;
+}
+/* Featured */
+#featured{
+    box-sizing: border-box;
+    background: url('/images/featured/bgfeatured.png') no-repeat center center/cover;
+    width: 100%;
+    height: 289px;
+    margin-top: 160px;
+}
+.feature-header {
+    text-align: center;
+    padding :  50px 270px;
+    margin-bottom: 0;
+    font-weight: 51;
+    color: #fff;
+}
+.feature-header p{
+    margin-bottom: -29px;
+}
+.company{
+    display: flex;
+    justify-content: space-between;
+    justify-items: 6px;
+    padding-left: 182px;
+    padding-right: 150px;
+}
+/* consult us */
+#consult{
+    background: url('/images/consult/bg-consult.png') no-repeat center center/cover;
+    height: 325px;
+    margin-top: 140px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 20px;
+}
+#consult h2{
+    padding-left: 80px;
+    padding-top: 102px;
+    margin-left: 40px;
+    margin-top: 101px;
+    font-weight: bold;
+}
+#consult p{
+    padding-left: 80px;
+    padding-top: 21px;
+    margin-left: 40px;
+    margin-top: -21px;
+}
+
+#consult img{
+    margin-bottom: -20px;
+    max-width: 50px;
+    
+}
+.consult-btn{
+    background-color: #fff;
+    font-weight: 400;
+    color: #333;
+    padding: 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 1000px;
+    margin-top: 30px;
+    margin-bottom: -400px;
+}
+.issue-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    padding-top: 120px;
+}
+.issue-content{
+    width: 532px;
+    height: 356px;
+    border:#808080 2px solid;
+    
+    border-radius: 20px;
+    margin-right: 98px;
+}
+.issue-content img{
+    padding: 30px 44px;
+}
+.issue-content p,h2{
+    padding-left: 44px;
+}
+.issue-image{
+    width: 624px;
+    height: 329px;
+    margin-left: 80px;
+}
+.ready-container{
+    background: url('/images/Group\ 10557.png') no-repeat center center/cover;
+    margin-top: 1px;
+    margin-left: 180px;
+    margin-right: 180px;
+    border-radius: 20px;
+    height: 251px;
+}
+
+#start img{
+    margin-bottom: -20px;
+    max-width: 70px;
+    
+}
+#start h2{
+    padding-left: 80px;
+    padding-top: 102px;
+    margin-left: 40px;
+    margin-top: 101px;
+    font-weight: bold;
+}
+#start p{
+    padding-left: 80px;
+    padding-top: 5px;
+    margin-left: 40px;
+    margin-top: -10px;
+}
+.ready-btn{
+    background-color: #fff;
+    font-weight: 400;
+    color: #333;
+    padding: 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    text-align: center;
+    height: 77px;
+    width: 256px;
+    margin-left: 800px;
+    margin-top: 30px;
+    margin-bottom: -400px;
+}
+/* laptop */
+#laptop-img{
+    align-items: center;
+    padding-left: 214px;
+    margin-top: 110px;
+    width: 591px;
+}
+/* prominent solution section */
+
+#prominent{
+    margin-top: 60px;
+}
+.prom-content{
+    margin-left: 180px;
+    margin-top: 60px;
+}
+.prom-content p,h1,img{
+    padding: 10px;
+}
+.prom-content h1{
+    font-weight: bold;
+    font-size: 30px;
+}
+.prom-content p{
+    color: #333;
+    font-size: 19px;
+}
+.prom-img img{
+    height: 717px;
+    margin-left: -200px;
+    margin-top: 50px;
+    
+}
+/* Services */
+#new-serv-header{
+    margin-top: 30px;
+    text-align: center;
+}
+#serv-main h1{
+    font-weight:bolder;
+    font-size: 30px;
+}
+#serv-main img{
+    max-width: 100px;
+    margin-bottom: -21px;
+}
+#serv-main p{
+    padding-top: 28px;
+    font-size: 19px;
+    color: #333;
+}
+#new-serv-c1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* margin-left: 160px; */
+    margin-top: 50px;
+}
+#new-s1 img{
+    width: 100px;
+    margin-left: 210px;
+}
+#new-s1 h3{
+    margin-left: 200px;
+}
+#new-s1 p{
+    margin-left: 40px;
+    text-align: center;
+}
+#new-serv-c2{
+    display: grid;
+    grid-template-columns: 4fr 4fr;
+}
+#ns-1 img{
+    margin-left: 500px;
+}
+#ns-1 h3{
+    margin-left: 450px;
+}
+#ns-1 p{
+    margin-left: 340px;
+    text-align: center;
+}
+#ns-2 img{
+    margin-left: 200px;
+}
+#ns-2 h3{
+    margin-left: 200px;
+}
+#ns-2 p{
+    margin-left: -200px;
+    text-align: center;
+}
+/* low budget */
+#budget{
+    background: url('/images/lowbudgetbg.png') no-repeat center center/cover;
+    height: 325px;
+    margin-top: 140px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 20px;
+}
+#budget h2{
+    padding-left: 80px;
+    padding-top: 102px;
+    margin-left: 40px;
+    margin-top: 101px;
+    font-weight: bold;
+}
+#budget p{
+    padding-left: 80px;
+    padding-top: 21px;
+    margin-left: 40px;
+    margin-top: -21px;
+}
+
+#budget img{
+    margin-bottom: -20px;
+    max-width: 40px;
+    
+}
+/* Estimated Quote */
+.est-btn {
+    background-color: #fff;
+    font-weight: 400;
+    color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 800px;
+    margin-bottom: 400px;
+    
+}
+.est-container{
+    background: url('/images/Group\ 10557.png') no-repeat center center/cover;
+    margin-top: 1px;
+    margin-left: 180px;
+    margin-right: 180px;
+    border-radius: 20px;
+    height: 251px;
+}
+
+#est img{
+    margin-bottom: -20px;
+    max-width: 70px;
+}
+#est{
+    margin-top: 60px;
+}
+#est h2{
+    padding-left: 100px;
+    padding-top: 50px;
+    margin-top: 100px;
+}
+#est p{
+    padding-left: 100px;
+    padding-top: 5px;
+    margin-top: -10px;
+}
+/* Experience */
+#experience{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background: #ebecf0;
+    padding-bottom: 60px;
+
+}
+#experience-left h1{
+    font-weight: bold;
+    font-size: 26px;
+}
+#experience-left a img{
+    width: 400px;
+    height: 79px;
+}
+#experience-right{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 120px;
+}
+#experience-right h1{
+    font-weight: bolder;
+    font-size: 40px;
+    color:#0670F4
+}
+#op,#sh{
+    padding-top: 20px;
+}
+#user h3{
+    margin-left: 30px;
+}
+/* Webb App */
+#webapp{
+    margin-top: 60px;
+}
+#web-content img{
+    width: 99px;
+    height: 73px;
+    margin-left: 182px;
+}
+#web-content h1{
+    margin-left: 182px;
+    font-weight: bold;
+    font-size: 30px;
+}
+#web-content p{
+    margin-left: 190px;
+    color: #333;
+    font-size: 19px;
+
+}
+#web-img{
+    margin-top: 40px;
+    text-align: center;
+}
+/* Webb App 2*/
+#webapp2{
+    margin-top: 60px;
+}
+#web-content-2 img{
+    width: 80px;
+    height: 85px;
+    margin-left: 182px;
+}
+#web-content-2 h1{
+    margin-left: 182px;
+    font-weight: bold;
+    font-size: 30px;
+}
+#web-content-2 p{
+    margin-left: 190px;
+    color: #333;
+    font-size: 19px;
+
+}
+#web-img-2{
+    margin-top: 40px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+#web-content-2 h1 input{
+    border-radius: 5px; 
+    color: #697ca18c;
+    padding: 20px;
+    margin-top: 10px;
+    margin-left: 0px;
+}
+#web-content-2 a{
+    text-align: center;
+}
+.submit-btn{
+    background-color: #0072b1;
+    color: #fff;
+    text-decoration: none;
+    margin-left: -10px;
+    margin-top: -300px;
+    margin-bottom: -300px;
+    padding-bottom: 12px;
+    padding-right: 15px;
+    text-align: center;
+    border-radius: 0px 10px 10px 0px;
+
+}
+#web-img-2{
+    float: right;
+    margin-top: 0px;
+}
+/* Tech used */
+#tech-head h1{
+    font-weight:bolder;
+    font-size: 30px;
+    text-align: center;
+}
+#tech-items img{
+    margin-left: 20px;
+}
+/* Project Success Stories */
+#prj-title h1{
+    font-weight:bolder;
+    font-size: 30px;
+}
+#prj-title img{
+    max-width: 100px;
+    margin-bottom: -21px;
+}
+#prj-title p{
+    padding-top: 28px;
+    font-size: 19px;
+    color: #333;
+}
+#prj-head{
+    margin-top: 30px;
+    text-align: center;
+}
+#prj-content-1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* margin-left: 160px; */
+    margin-top: 50px;
+    justify-self: left;
+    /* text-align: center; */
+    justify-content: space-around;
+    padding-left: 180px;
+}
+#c-4{
+    margin-left: 200px;
+}
+#c-1 h3,#c-1 p,#c-2 h3,#c-2 p,#c-3 h3,#c-3 p,#c-4 h3,#c-4 p,#c-5 h3,#c-5 p{
+    margin-left: 10px;
+}
+
+#prj-content-2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* margin-left: 160px; */
+    margin-top: 50px;
+    justify-self: center;
+    /* text-align: center; */
+    justify-content: space-around;
+    padding-left: 180px;
+}
